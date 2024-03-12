@@ -64,7 +64,7 @@
     "eslint-plugin-n": "^16.6.1",
     "eslint-plugin-promise": "^6.1.1",
     "fastify": "^4.26.2",
-    "mongodb": "^6.4.0",
+    "mongodb": "^6.5.0",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.8",
@@ -75,7 +75,7 @@
     "fastify-plugin": "^4.5.1"
   },
   "peerDependencies": {
-    "mongodb": "^6.4.0"
+    "mongodb": "^6.5.0"
   },
   "peerDependenciesMeta": {
     "mongodb": {
