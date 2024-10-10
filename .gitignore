@@ -120,6 +120,7 @@ dist
 *.js.map
 *.js
 *.d.ts
+!**/types/**/*.d.ts
 
 #
 yarn.lock

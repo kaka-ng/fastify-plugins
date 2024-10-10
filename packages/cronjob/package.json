@@ -12,22 +12,6 @@
     ".": {
       "import": "./lib/mjs/index.js",
       "require": "./lib/index.js"
-    },
-    "./lib/adapter/adapter": {
-      "import": "./lib/mjs/adapter/adapter.js",
-      "require": "./lib/adapter/adapter.js"
-    },
-    "./lib/adapter/adapter.js": {
-      "import": "./lib/mjs/adapter/adapter.js",
-      "require": "./lib/adapter/adapter.js"
-    },
-    "./lib/adapter/mongodb": {
-      "import": "./lib/mjs/adapter/mongodb.js",
-      "require": "./lib/adapter/mongodb.js"
-    },
-    "./lib/adapter/mongodb.js": {
-      "import": "./lib/mjs/adapter/mongodb.js",
-      "require": "./lib/adapter/mongodb.js"
     }
   },
   "scripts": {
@@ -58,8 +42,10 @@
     "@types/node": "^22.7.5",
     "c8": "^10.1.2",
     "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
     "eslint": "^9.12.0",
     "fastify": "^5.0.0",
+    "josk": "^5.0.0",
     "mongodb": "^6.9.0",
     "neostandard": "^0.11.6",
     "rimraf": "^6.0.1",
@@ -72,6 +58,7 @@
     "fastify-plugin": "^5.0.1"
   },
   "peerDependencies": {
+    "josk": "^5.0.0",
     "mongodb": "^6.9.0"
   },
   "peerDependenciesMeta": {

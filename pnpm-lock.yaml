@@ -72,10 +72,16 @@ importers:
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
       eslint:
         specifier: ^9.12.0
         version: 9.12.0
       fastify:
+        specifier: ^5.0.0
+        version: 5.0.0
+      josk:
         specifier: ^5.0.0
         version: 5.0.0
       mongodb:
@@ -1323,6 +1329,10 @@ packages:
 
   jose@5.9.3:
     resolution: {integrity: sha512-egLIoYSpcd+QUF+UHgobt5YzI2Pkw/H39ou9suW687MY6PmCwPmkNV/4TNjn1p2tX5xO3j0d0sq5hiYE24bSlg==}
+
+  josk@5.0.0:
+    resolution: {integrity: sha512-hD82IqX1kCTzetZn9sk8jOiMW7emArlYclsykk4+BOSkQlnfRN01tyAoNsOO9eYkkUg3rcGcui1h4A/iwkHp2w==}
+    engines: {node: '>=14.20.0'}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -3205,6 +3215,8 @@ snapshots:
       '@sideway/pinpoint': 2.0.0
 
   jose@5.9.3: {}
+
+  josk@5.0.0: {}
 
   js-tokens@4.0.0: {}
 

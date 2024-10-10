@@ -19,7 +19,8 @@
     "noImplicitThis": true,
 
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./types"]
   },
   "exclude": ["node_modules"]
 }

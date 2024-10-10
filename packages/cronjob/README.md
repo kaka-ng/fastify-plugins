@@ -3,8 +3,8 @@
 [![Continuous Integration](https://github.com/kaka-ng/fastify-plugins/actions/workflows/ci-cronjob.yml/badge.svg)](https://github.com/kaka-ng/fastify-plugins/actions/workflows/ci-cronjob.yml)
 [![NPM version](https://img.shields.io/npm/v/@kakang/fastify-cronjob.svg?style=flat)](https://www.npmjs.com/package/@kakang/fastify-cronjob)
 
-This plugin is inspired by [JoSK](https://github.com/veliovgroup/josk)
-for managing cronjob in Node.js cluster
+This plugin using [JoSK](https://github.com/veliovgroup/josk)
+underneth for managing cronjob in Node.js cluster
 
 ## Install
 
@@ -17,8 +17,7 @@ yarn add @kakang/fastify-cronjob
 ## Usage
 
 ```ts
-import fastifyCronJob from '@kakang/fastify-cronjob'
-import { MongoDBAdapter } from '@kakang/fastify-cronjob/lib/adapter/mongodb'
+import fastifyCronJob, { MongoAdapter, RedisAdapter } from '@kakang/fastify-cronjob'
 import { MongoClient } from 'mongodb'
 
 const client = new MongoClient('mongodb://127.0.0.1:27017')
@@ -26,17 +25,15 @@ await client.connect()
 const db = client.db('cronjob')
 
 fastify.register(fastifyCronjob, {
-  adapter: MongoDBAdapter,
-  adapterOptions: {
-    application: 'cronjob',
+  adapter: new MongoAdapter({
     db
-  }
+  })
 })
 ```
 
 ## API
 
-### .setInterval(fn, ms, uid[, context])
+### .setInterval(fn, ms, uid)
 
 Job that runs on defined interval
 
@@ -62,7 +59,7 @@ fastify.cronjob.setInterval(function (context) {
 }, 1000, 'promise')
 ```
 
-### .setTimeout(fn, ms, uid[, context])
+### .setTimeout(fn, ms, uid)
 
 Job that runs on defined timeout
 
@@ -88,7 +85,7 @@ fastify.cronjob.setTimeout(function (context) {
 }, 1000, 'promise')
 ```
 
-### .setImmediate(fn, uid[, context])
+### .setImmediate(fn, uid)
 
 Job that runs immediately
 
@@ -114,7 +111,7 @@ fastify.cronjob.setImmediate(function (context) {
 }, 'promise')
 ```
 
-### .setCronJob(fn, cron, uid[, context])
+### .setCronJob(fn, cron, uid)
 
 Job that runs on defined cron string
 
@@ -140,7 +137,7 @@ fastify.cronjob.setCronJob(function (context) {
 }, '* * * * * *', 'promise')
 ```
 
-### .setLoopTask(fn, uid[, context])
+### .setLoopTask(fn, uid)
 
 Job that runs immediately one follow the other.
 
