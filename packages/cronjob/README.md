@@ -17,7 +17,7 @@ yarn add @kakang/fastify-cronjob
 ## Usage
 
 ```ts
-import fastifyCronJob from '@kakang/fastify-cronjob'
+import { fastifyCronJob } from '@kakang/fastify-cronjob'
 import { MongoDBAdapter } from '@kakang/fastify-cronjob/lib/adapter/mongodb'
 import { MongoClient } from 'mongodb'
 
@@ -25,7 +25,7 @@ const client = new MongoClient('mongodb://127.0.0.1:27017')
 await client.connect()
 const db = client.db('cronjob')
 
-fastify.register(fastifyCronjob, {
+fastify.register(fastifyCronJob, {
   adapter: MongoDBAdapter,
   adapterOptions: {
     application: 'cronjob',
