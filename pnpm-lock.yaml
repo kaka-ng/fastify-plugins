@@ -45,8 +45,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.14.0)(typescript@5.8.2)
       tsc-alias:
-        specifier: ^1.8.13
-        version: 1.8.13
+        specifier: ^1.8.14
+        version: 1.8.14
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -94,8 +94,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.14.0)(typescript@5.8.2)
       tsc-alias:
-        specifier: ^1.8.13
-        version: 1.8.13
+        specifier: ^1.8.14
+        version: 1.8.14
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -137,8 +137,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.14.0)(typescript@5.8.2)
       tsc-alias:
-        specifier: ^1.8.13
-        version: 1.8.13
+        specifier: ^1.8.14
+        version: 1.8.14
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -189,8 +189,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.14.0)(typescript@5.8.2)
       tsc-alias:
-        specifier: ^1.8.13
-        version: 1.8.13
+        specifier: ^1.8.14
+        version: 1.8.14
       typescript:
         specifier: ~5.8.2
         version: 5.8.2
@@ -244,8 +244,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.14.0)(typescript@5.8.2)
       tsc-alias:
-        specifier: ^1.8.13
-        version: 1.8.13
+        specifier: ^1.8.14
+        version: 1.8.14
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -296,8 +296,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.14.0)(typescript@5.8.2)
       tsc-alias:
-        specifier: ^1.8.13
-        version: 1.8.13
+        specifier: ^1.8.14
+        version: 1.8.14
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -2003,8 +2003,8 @@ packages:
       '@swc/wasm':
         optional: true
 
-  tsc-alias@1.8.13:
-    resolution: {integrity: sha512-hpuglrm2DoHZE62L8ntYqRNiSQ7J8kvIxEsajzY/QfGOm7EcdhgG5asqoWYi2E2KX0SqUuhOTnV8Ry8D/TnsEA==}
+  tsc-alias@1.8.14:
+    resolution: {integrity: sha512-abPL5KpLkZCR06QkgyOBaswNPgNL/Ub/am16tvQ0kTsmPx3FEhBOAsvIPUU8OkYrLv0JlzJEaJ1r6XkJBIQvYg==}
     engines: {node: '>=16.20.2'}
     hasBin: true
 
@@ -4082,10 +4082,11 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  tsc-alias@1.8.13:
+  tsc-alias@1.8.14:
     dependencies:
       chokidar: 3.6.0
       commander: 9.5.0
+      get-tsconfig: 4.10.0
       globby: 11.1.0
       mylas: 2.1.13
       normalize-path: 3.0.0
