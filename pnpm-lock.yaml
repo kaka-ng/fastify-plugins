@@ -204,8 +204,8 @@ importers:
         specifier: ^5.0.7
         version: 5.0.7
       fast-jwt:
-        specifier: ^6.0.1
-        version: 6.0.1
+        specifier: ^6.0.2
+        version: 6.0.2
       fastify-plugin:
         specifier: ^5.0.1
         version: 5.0.1
@@ -701,8 +701,8 @@ packages:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
-  bn.js@4.12.1:
-    resolution: {integrity: sha512-k8TVBiPkPJT9uHLdOKfFpqcfprwBFOAAXXozRubr7R7PfIuKvQlzcI4M0pALeqXN09vdaMbUdUj+pass+uULAg==}
+  bn.js@4.12.2:
+    resolution: {integrity: sha512-n4DSx829VRTRByMRGdjQ9iqsN0Bh4OolPsFnaZBLcbi8iXcB+kJ9s7EnRt4wILZNV3kPLHkRVfOc/HvhC3ovDw==}
 
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -1071,8 +1071,8 @@ packages:
   fast-json-stringify@6.0.0:
     resolution: {integrity: sha512-FGMKZwniMTgZh7zQp9b6XnBVxUmKVahQLQeRQHqwYmPDqDhcEKZ3BaQsxelFFI5PY7nN71OEeiL47/zUWcYe1A==}
 
-  fast-jwt@6.0.1:
-    resolution: {integrity: sha512-r2aQMsjXw/6itaDv92uYP0daDxM4sukt6MX5gqqA4jDoG1Kd/7RBg1XU3bTZmy80eTWuIe4BVPk/Rys0djwGVA==}
+  fast-jwt@6.0.2:
+    resolution: {integrity: sha512-dTF4bhYnuXhZYQUaxsHKqAyA5y/L/kQc4fUu0wQ0BSA0dMfcNrcv0aqR2YnVi4f7e1OnzDVU7sDsNdzl1O5EVA==}
     engines: {node: '>=20'}
 
   fast-levenshtein@2.0.6:
@@ -2552,7 +2552,7 @@ snapshots:
 
   asn1.js@5.4.1:
     dependencies:
-      bn.js: 4.12.1
+      bn.js: 4.12.2
       inherits: 2.0.4
       minimalistic-assert: 1.0.1
       safer-buffer: 2.1.2
@@ -2576,7 +2576,7 @@ snapshots:
 
   binary-extensions@2.3.0: {}
 
-  bn.js@4.12.1: {}
+  bn.js@4.12.2: {}
 
   brace-expansion@1.1.11:
     dependencies:
@@ -3086,7 +3086,7 @@ snapshots:
       json-schema-ref-resolver: 1.0.1
       rfdc: 1.4.1
 
-  fast-jwt@6.0.1:
+  fast-jwt@6.0.2:
     dependencies:
       '@lukeed/ms': 2.0.2
       asn1.js: 5.4.1
