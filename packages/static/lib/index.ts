@@ -8,10 +8,12 @@ import { FileSystemEngine } from './engines/fs'
 import { normalizeRoots, normalizeSendOption, normalizeServe } from './option'
 
 declare module 'fastify' {
+  interface FastifyStaticInstance {
+    upload: (path: string, readable: Readable) => Promise<void>
+  }
+
   interface FastifyInstance {
-    static: {
-      upload: (path: string, readable: Readable) => Promise<void>
-    }
+    static: FastifyStaticInstance
   }
 
   interface FastifyReply {
