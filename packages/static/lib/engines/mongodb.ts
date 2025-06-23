@@ -60,7 +60,10 @@ export class MongoDBEngine extends Engine {
         if (documents[0]) {
           return this.#bucket.openDownloadStream(documents[0]._id, {
             start: options.start,
-            end: options.end
+            // end is the position stop before reading
+            // so, unlike fs.createReadable. we need
+            // one more bytes
+            end: options.end + 1
           }) as Readable
         }
         return Readable.from([])

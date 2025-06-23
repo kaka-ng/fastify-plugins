@@ -38,5 +38,5 @@ test('mongodb engine', async (t: TestContext) => {
 
   const response = await fastify.inject('/index.html')
   t.assert.equal(response.statusCode, 200)
-  t.assert.equal(response.body, content.trimEnd())
+  t.assert.equal(response.body, content)
 })
