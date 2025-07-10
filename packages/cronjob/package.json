@@ -60,7 +60,7 @@
     "cross-env": "^7.0.3",
     "dotenv": "^17.2.0",
     "eslint": "^9.30.1",
-    "fastify": "^5.0.0",
+    "fastify": "^5.4.0",
     "mongodb": "^6.17.0",
     "neostandard": "^0.12.2",
     "rimraf": "^6.0.1",
