@@ -61,7 +61,7 @@
     "dotenv": "^17.2.0",
     "eslint": "^9.31.0",
     "fastify": "^5.0.0",
-    "mongodb": "^6.17.0",
+    "mongodb": "^6.18.0",
     "neostandard": "^0.12.2",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
@@ -73,7 +73,7 @@
     "fastify-plugin": "^5.0.1"
   },
   "peerDependencies": {
-    "mongodb": "^6.17.0"
+    "mongodb": "^6.18.0"
   },
   "peerDependenciesMeta": {
     "mongodb": {
