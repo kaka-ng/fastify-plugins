@@ -55,6 +55,6 @@
     "mongodb": "^6.20.0"
   },
   "dependencies": {
-    "fastify-plugin": "^5.0.1"
+    "fastify-plugin": "^5.1.0"
   }
 }
