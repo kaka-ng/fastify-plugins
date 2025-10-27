@@ -51,7 +51,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "env-schema": "^6.1.0",
+    "env-schema": "^7.0.0",
     "fastify-plugin": "^5.1.0"
   }
 }
