@@ -58,7 +58,7 @@
     "@types/simple-oauth2": "^5.0.7",
     "fast-jwt": "^6.0.2",
     "fastify-plugin": "^5.1.0",
-    "jose": "^6.1.0",
+    "jose": "^6.1.1",
     "simple-oauth2": "^5.1.0"
   }
 }
