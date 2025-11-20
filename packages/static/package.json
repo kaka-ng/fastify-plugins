@@ -47,7 +47,7 @@
     "fastify": "^5.0.0",
     "mongodb": "^7.0.0",
     "neostandard": "^0.12.2",
-    "rimraf": "^6.1.0",
+    "rimraf": "^6.1.2",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.16",
     "typescript": "^5.9.3"
