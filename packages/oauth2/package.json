@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@types/simple-oauth2": "^5.0.7",
-    "fast-jwt": "^6.0.2",
+    "fast-jwt": "^6.1.0",
     "fastify-plugin": "^5.1.0",
     "jose": "^6.1.2",
     "simple-oauth2": "^5.1.0"
