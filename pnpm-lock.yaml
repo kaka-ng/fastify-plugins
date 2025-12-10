@@ -201,8 +201,8 @@ importers:
   packages/oauth2:
     dependencies:
       '@types/simple-oauth2':
-        specifier: ^5.0.7
-        version: 5.0.7
+        specifier: ^5.0.8
+        version: 5.0.8
       fast-jwt:
         specifier: ^6.1.0
         version: 6.1.0
@@ -535,8 +535,8 @@ packages:
   '@types/node@22.15.30':
     resolution: {integrity: sha512-6Q7lr06bEHdlfplU6YRbgG1SFBdlsfNC4/lX+SkhiTs0cpJkOElmWls8PxDFv4yY/xKb8Y6SO0OmSX4wgqTZbA==}
 
-  '@types/simple-oauth2@5.0.7':
-    resolution: {integrity: sha512-8JbWVJbiTSBQP/7eiyGKyXWAqp3dKQZpaA+pdW16FCi32ujkzRMG8JfjoAzdWt6W8U591ZNdHcPtP2D7ILTKuA==}
+  '@types/simple-oauth2@5.0.8':
+    resolution: {integrity: sha512-TehQqoOGdy3/rmFsCEGgnt1f4JhUCA0joWemGGCTbVYvoZvfBjkRsBFYmz8k0V/sn2XQZHe33L4lWxqMhIO3tQ==}
 
   '@types/webidl-conversions@7.0.3':
     resolution: {integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==}
@@ -2583,7 +2583,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/simple-oauth2@5.0.7': {}
+  '@types/simple-oauth2@5.0.8': {}
 
   '@types/webidl-conversions@7.0.3': {}
 
