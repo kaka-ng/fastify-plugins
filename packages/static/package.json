@@ -44,7 +44,7 @@
     "cross-env": "^10.1.0",
     "dotenv": "^17.2.3",
     "eslint": "^9.39.2",
-    "fastify": "^5.0.0",
+    "fastify": "^5.7.2",
     "mongodb": "^7.0.0",
     "neostandard": "^0.12.2",
     "rimraf": "^6.1.2",
