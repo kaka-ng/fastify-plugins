@@ -156,8 +156,8 @@ importers:
         specifier: ^1.5.4
         version: 1.5.4
       '@types/formidable':
-        specifier: ^3.5.0
-        version: 3.5.0
+        specifier: ^3.5.1
+        version: 3.5.1
       '@types/node':
         specifier: ^22.15.30
         version: 22.15.30
@@ -526,8 +526,8 @@ packages:
   '@types/fast-decode-uri-component@1.0.0':
     resolution: {integrity: sha512-xhTFpMookjiVEDxI8RBUOxZL8BQiI2+YZZoqzW/G6s3r1h60gDzGnmKP83LNuTmCqk8ZmbY5cYkByKu4t+rKhA==}
 
-  '@types/formidable@3.5.0':
-    resolution: {integrity: sha512-fHChKoKkxUy/n7uCHHWTMQ8yA7/raxz1+K2B7edHTIQhwBHX9TfRnCX0ohmuR77ezEFgMapUuSksk0MA7nQCrA==}
+  '@types/formidable@3.5.1':
+    resolution: {integrity: sha512-aFQijSGbD8JCeEST2LEbwR7faHynbt43lojLIcTM/QhB2U06h41ZVRFVEql+Z1xdL+aKGIzm69V/P/uSW9N6XA==}
 
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
@@ -2615,7 +2615,7 @@ snapshots:
 
   '@types/fast-decode-uri-component@1.0.0': {}
 
-  '@types/formidable@3.5.0':
+  '@types/formidable@3.5.1':
     dependencies:
       '@types/node': 22.15.30
 
