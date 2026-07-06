@@ -45,8 +45,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.8.17
-        version: 1.8.17
+        specifier: ^1.9.0
+        version: 1.9.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -94,8 +94,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.8.17
-        version: 1.8.17
+        specifier: ^1.9.0
+        version: 1.9.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -137,8 +137,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.8.17
-        version: 1.8.17
+        specifier: ^1.9.0
+        version: 1.9.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -189,8 +189,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.8.17
-        version: 1.8.17
+        specifier: ^1.9.0
+        version: 1.9.0
       typescript:
         specifier: ~6.0.3
         version: 6.0.3
@@ -244,8 +244,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.8.17
-        version: 1.8.17
+        specifier: ^1.9.0
+        version: 1.9.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -296,8 +296,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.8.17
-        version: 1.8.17
+        specifier: ^1.9.0
+        version: 1.9.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -2254,8 +2254,8 @@ packages:
       '@swc/wasm':
         optional: true
 
-  tsc-alias@1.8.17:
-    resolution: {integrity: sha512-EIduCZHqbNwPm8BZYfq1aD7BQ697A4h6uSGMOFQfYGoQwfrYFTKwYfy9Bv42YxHkduVBcn9Zx0DkX111DKskyg==}
+  tsc-alias@1.9.0:
+    resolution: {integrity: sha512-IZrCInovKxVCwXyKhcdr/HaxSYugKT0w4zyktOE/4115Nzo6gbp/NhkaEeyOG0/H7QoTeXtv+3UHffBYta9oWw==}
     engines: {node: '>=16.20.2'}
     hasBin: true
 
@@ -4545,7 +4545,7 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  tsc-alias@1.8.17:
+  tsc-alias@1.9.0:
     dependencies:
       chokidar: 3.6.0
       commander: 9.5.0
