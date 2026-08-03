@@ -204,8 +204,8 @@ importers:
         specifier: ^5.0.8
         version: 5.0.8
       fast-jwt:
-        specifier: ^6.3.0
-        version: 6.3.0
+        specifier: ^6.3.1
+        version: 6.3.1
       fastify-plugin:
         specifier: ^6.0.0
         version: 6.0.0
@@ -949,6 +949,7 @@ packages:
   cron-parser@4.9.0:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
+    deprecated: v4 is no longer maintained, upgrade to v5
 
   cross-env@10.1.0:
     resolution: {integrity: sha512-GsYosgnACZTADcmEyJctkJIoqAhHjttw7RsFrVoJNXbsWWqaq6Ym+7kZjq6mS45O0jij6vtiReppKQEtqWy6Dw==}
@@ -1234,8 +1235,8 @@ packages:
   fast-json-stringify@6.0.0:
     resolution: {integrity: sha512-FGMKZwniMTgZh7zQp9b6XnBVxUmKVahQLQeRQHqwYmPDqDhcEKZ3BaQsxelFFI5PY7nN71OEeiL47/zUWcYe1A==}
 
-  fast-jwt@6.3.0:
-    resolution: {integrity: sha512-qFVn4V6rdsqUVOr6WoSF8rt569SdWvORlPKhT4fh3vMeMN6pmkGdWcSfKdLM/G9B2KZp/9E/EOgsYbJUaaT2rQ==}
+  fast-jwt@6.3.1:
+    resolution: {integrity: sha512-9LFiA4oIx7CjPjep7G5zrfM+UiA+60lIsYH/6I5kCwGBa06WUtdwJ3F3m8Z79bxdUVz/lW30A/NsWWStqoJKrw==}
     engines: {node: '>=20'}
 
   fast-levenshtein@2.0.6:
@@ -3501,7 +3502,7 @@ snapshots:
       json-schema-ref-resolver: 1.0.1
       rfdc: 1.4.1
 
-  fast-jwt@6.3.0:
+  fast-jwt@6.3.1:
     dependencies:
       '@lukeed/ms': 2.0.2
       asn1.js: 5.4.1
