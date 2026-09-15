@@ -45,8 +45,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.9.4
-        version: 1.9.4
+        specifier: ^1.9.5
+        version: 1.9.5
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -94,8 +94,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.9.4
-        version: 1.9.4
+        specifier: ^1.9.5
+        version: 1.9.5
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -137,8 +137,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.9.4
-        version: 1.9.4
+        specifier: ^1.9.5
+        version: 1.9.5
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -189,8 +189,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.9.4
-        version: 1.9.4
+        specifier: ^1.9.5
+        version: 1.9.5
       typescript:
         specifier: ~6.0.3
         version: 6.0.3
@@ -244,8 +244,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.9.4
-        version: 1.9.4
+        specifier: ^1.9.5
+        version: 1.9.5
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -296,8 +296,8 @@ importers:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.30)(typescript@6.0.3)
       tsc-alias:
-        specifier: ^1.9.4
-        version: 1.9.4
+        specifier: ^1.9.5
+        version: 1.9.5
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -1453,8 +1453,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  ignore@7.0.8:
-    resolution: {integrity: sha512-YYNsSlXBjMk92SKnkwvB5LOVSa6OznlFUGcsvrFgNJbJCd0M1XKeFVRc8ZByeCqz32FivYNHJVooLmdqrmvp/Q==}
+  ignore@7.0.9:
+    resolution: {integrity: sha512-brTTsvFRt5C1gGHtPst/281UjPD5t9fBqbgoMPlVWy11ZLTPfu7HxK4ZYqO9H7o/yC9rSTCI85EaQ4OoY12qYw==}
     engines: {node: '>= 4'}
 
   import-fresh@3.3.1:
@@ -2278,8 +2278,8 @@ packages:
       '@swc/wasm':
         optional: true
 
-  tsc-alias@1.9.4:
-    resolution: {integrity: sha512-vfhh/N9xQ6oRgdAvuXVbhHSsNtbk+D4LFbJ9YrFPTTP9evGAvf2Xc3MQ7lTVmnJNN+FnuoKHn3524CKDzFYOag==}
+  tsc-alias@1.9.5:
+    resolution: {integrity: sha512-B2M3D2Fsb8dPT04Jc52R2Erp9u7QUjXpjb648dvKb0esKVmo0CC28KFe98sFkjmnY36D+PFqnAE/UDbHGbV+mA==}
     engines: {node: '>=16.20.2'}
     hasBin: true
 
@@ -2686,7 +2686,7 @@ snapshots:
       '@typescript-eslint/visitor-keys': 8.35.1
       eslint: 9.39.2
       graphemer: 1.4.0
-      ignore: 7.0.8
+      ignore: 7.0.9
       natural-compare: 1.4.0
       ts-api-utils: 2.1.0(typescript@6.0.3)
       typescript: 6.0.3
@@ -3747,7 +3747,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  ignore@7.0.8: {}
+  ignore@7.0.9: {}
 
   import-fresh@3.3.1:
     dependencies:
@@ -4597,7 +4597,7 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  tsc-alias@1.9.4:
+  tsc-alias@1.9.5:
     dependencies:
       chokidar: 3.6.0
       commander: 9.5.0
