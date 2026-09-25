@@ -73,8 +73,8 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       dotenv:
-        specifier: ^18.0.1
-        version: 18.0.1
+        specifier: ^18.0.2
+        version: 18.0.2
       eslint:
         specifier: ^9.39.2
         version: 9.39.2
@@ -275,8 +275,8 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       dotenv:
-        specifier: ^18.0.1
-        version: 18.0.1
+        specifier: ^18.0.2
+        version: 18.0.2
       eslint:
         specifier: ^9.39.2
         version: 9.39.2
@@ -1028,8 +1028,8 @@ packages:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
 
-  dotenv@18.0.1:
-    resolution: {integrity: sha512-0eR4m4D/jH5eaI3evo2ZqqMii5mrTCR12v12VChdie6O1gPHs7XAjzTep0CWc1Bd+oNx3vVfbi734dK4zghigw==}
+  dotenv@18.0.2:
+    resolution: {integrity: sha512-wl0U3CxC0iobaryqEKpFJxzyp4AxQFYAKj/WWszXZr87vVHLi2yJv2syax5Vxt+u02xqNgE277rsc3lOKg9sPg==}
     engines: {node: '>=12'}
     hasBin: true
 
@@ -3171,7 +3171,7 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  dotenv@18.0.1: {}
+  dotenv@18.0.2: {}
 
   dunder-proto@1.0.1:
     dependencies:
