@@ -86,7 +86,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@kakang/unit": "^0.0.3",
-    "@types/busboy": "^1.5.4",
+    "@types/busboy": "^1.5.5",
     "@types/formidable": "^3.5.1",
     "@types/node": "^22.15.30",
     "busboy": "^1.6.0",
