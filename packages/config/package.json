@@ -52,6 +52,6 @@
   },
   "dependencies": {
     "env-schema": "^8.0.1",
-    "fastify-plugin": "^6.0.0"
+    "fastify-plugin": "^6.0.1"
   }
 }

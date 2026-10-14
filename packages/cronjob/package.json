@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "cron-parser": "^4.9.0",
-    "fastify-plugin": "^6.0.0"
+    "fastify-plugin": "^6.0.1"
   },
   "peerDependencies": {
     "mongodb": "^7.7.0"
